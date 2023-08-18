@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSyncPoC", "DataSyncPoC\DataSyncPoC.csproj", "{29C33670-AA88-4930-B049-E3ABF35C5C6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbReporter.Core", "DbReporter.Core\DbReporter.Core.csproj", "{95A3DC08-E53C-44CC-92CF-FA8415447DD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{226D64DD-43D1-4AAA-822C-522ADAD6FF14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29C33670-AA88-4930-B049-E3ABF35C5C6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29C33670-AA88-4930-B049-E3ABF35C5C6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29C33670-AA88-4930-B049-E3ABF35C5C6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29C33670-AA88-4930-B049-E3ABF35C5C6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95A3DC08-E53C-44CC-92CF-FA8415447DD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A3DC08-E53C-44CC-92CF-FA8415447DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A3DC08-E53C-44CC-92CF-FA8415447DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A3DC08-E53C-44CC-92CF-FA8415447DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29C33670-AA88-4930-B049-E3ABF35C5C6B} = {226D64DD-43D1-4AAA-822C-522ADAD6FF14}
+		{95A3DC08-E53C-44CC-92CF-FA8415447DD7} = {226D64DD-43D1-4AAA-822C-522ADAD6FF14}
+	EndGlobalSection
+EndGlobal
